@@ -40,12 +40,37 @@ nav ul {
   height: 48px;
   align-items: center;
 }
-nav li {
-  background-color: red;
-}
+
 header>div ul:not(.dk-blue):last-child {
   max-width: 240px;
   flex-basis: 240px;
   display: flex;
   justify-content: space-between;
+}
+
+svg {
+  height: 3rem;
+}
+
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+header form input {
+  background-image: url(../img/search.svg);
+  background-repeat: no-repeat;
+  background-position: 315px;
+  background-size: 20px;
+  padding: 15px 150px 15px 5px;
+  margin-left: 30px;
+  border-radius: 2px;
+  border: 0;
+}
+
+div.container ul:first-child {
+  margin-bottom: 20px;
 }
